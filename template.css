@@ -1,0 +1,34 @@
+.carousel-item{
+    height: 600px;
+}
+
+.center-cropped{
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+
+}
+
+@media(min-width:1199px){
+    
+    p{
+        color: red;
+    }
+    
+    
+    .img_event{
+    
+        border-radius: 50%;
+    }
+    }
+    
+    @media(max-width:575.98px){
+    
+        p{
+            color: yellowgreen;
+        }
+    
+        #gambar_event{
+            visibility: hidden;
+        }
+    }

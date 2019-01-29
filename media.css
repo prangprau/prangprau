@@ -1,0 +1,62 @@
+.carousel-item{
+    height: 800px;
+}
+
+.center-cropped{
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+
+}
+
+@media(min-width:1199px){
+    
+    p{
+        color: red;
+    }
+    
+    
+    .img_event{
+    
+        border-radius: 50%;
+    }
+    }
+    
+    @media(max-width:575.98px){
+    
+        p{
+            color: yellowgreen;
+        }
+    
+        #gambar_event{
+            visibility: hidden;
+        }
+    }
+    #album{
+        margin: 50px ;
+       
+    }
+    .album-content{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+    text-align:left;
+
+    }
+    .album-content p {
+        padding-top: 40px;
+        color: black;
+        font-size: 20px;
+        
+    }
+    
+#footer{
+    height:100px;
+    line-height:100px;
+    background:#333;
+    color:#fff;
+    text-align: center;
+   
+}
+
+   
